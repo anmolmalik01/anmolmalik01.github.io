@@ -33,13 +33,13 @@ function Contact() {
               <div className="flex flex-col sm:flex-row">
                 <div className="p-3 sm:p-5">
                   <label>
-                    <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-white">
+                    <span className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-white">
                       Full Name
                     </span>
                     <input
                       type="text"
                       name="Name"
-                      class="mt-2 px-2 py-1 sm:px-3 sm:py-2 sm:mt-1 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-white focus:ring-white block w-full rounded-md sm:text-sm focus:ring-1"
+                      className="mt-2 px-2 py-1 sm:px-3 sm:py-2 sm:mt-1 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-white focus:ring-white block w-full rounded-md sm:text-sm focus:ring-1"
                       placeholder="Name"
                       required
                     />
@@ -47,13 +47,13 @@ function Contact() {
                 </div>
                 <div className="p-3 sm:p-5">
                   <label>
-                    <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-white">
+                    <span ClassName="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-white">
                       Email
                     </span>
                     <input
                       type="email"
                       name="email"
-                      class="mt-2 px-2 py-1 sm:px-3 sm:py-2 sm:mt-1 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-white focus:ring-white block w-full rounded-md sm:text-sm focus:ring-1"
+                      ClassName="mt-2 px-2 py-1 sm:px-3 sm:py-2 sm:mt-1 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-white focus:ring-white block w-full rounded-md sm:text-sm focus:ring-1"
                       placeholder="you@mail.com"
                       required
                     />
@@ -62,26 +62,26 @@ function Contact() {
               </div>
               <div className="p-3 sm:p-5">
                 <label>
-                  <span class="block text-sm font-medium text-white">
+                  <span className="block text-sm font-medium text-white">
                     Subject
                   </span>
                   <input
                     type="text"
                     name="subject"
-                    class="mt-2 px-2 py-1 sm:px-3 sm:py-2 sm:mt-1 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-white focus:ring-white block w-full rounded-md sm:text-sm focus:ring-1"
+                    className="mt-2 px-2 py-1 sm:px-3 sm:py-2 sm:mt-1 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-white focus:ring-white block w-full rounded-md sm:text-sm focus:ring-1"
                     placeholder=""
                   />
                 </label>
               </div>
               <div className="p-3 sm:p-5">
                 <label>
-                  <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-white">
+                  <span className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-white">
                     Message
                   </span>
                   <textarea
                     type="text"
                     name="message"
-                    class="mt-2 px-2 py-1 sm:px-3 sm:py-2 sm:mt-1 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-white focus:ring-white block w-full h-40 rounded-md sm:text-sm focus:ring-1"
+                    className="mt-2 px-2 py-1 sm:px-3 sm:py-2 sm:mt-1 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-white focus:ring-white block w-full h-40 rounded-md sm:text-sm focus:ring-1"
                     placeholder=""
                     required
                   />

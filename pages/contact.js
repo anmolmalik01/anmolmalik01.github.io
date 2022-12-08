@@ -2,9 +2,9 @@ function Contact() {
   return (
     <div className="bg-gradient-to-br from-[#2e2e2e] via-black to-black text-white">
       {/* main heading */}
-        <p className="leading-normal font-abc pt-[34%] sm:pt-[18%] lg:pt-[13%] pl-[6%] pr-[3%] text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-left font-bold max-w-3xl lg:max-w-4xl">
-          Let's create one that stands
-        </p>
+      <p className="leading-normal font-abc pt-[34%] sm:pt-[18%] lg:pt-[13%] pl-[6%] pr-[3%] text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-left font-bold max-w-3xl lg:max-w-4xl">
+        Let&apos;s create one that stands
+      </p>
       {/* contact me */}
       <div>
         <div className="px-[10%] pt-[10%] md:pt-[8%]">
@@ -33,7 +33,7 @@ function Contact() {
               <div className="flex flex-col sm:flex-row">
                 <div className="p-3 sm:p-5">
                   <label>
-                    <span className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-white">
+                    <span className="after:content-[&apos;*&apos;] after:ml-0.5 after:text-red-500 block text-sm font-medium text-white">
                       Full Name
                     </span>
                     <input
@@ -47,13 +47,13 @@ function Contact() {
                 </div>
                 <div className="p-3 sm:p-5">
                   <label>
-                    <span ClassName="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-white">
+                    <span className="after:content-[&apos;*&apos;] after:ml-0.5 after:text-red-500 block text-sm font-medium text-white">
                       Email
                     </span>
                     <input
                       type="email"
                       name="email"
-                      ClassName="mt-2 px-2 py-1 sm:px-3 sm:py-2 sm:mt-1 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-white focus:ring-white block w-full rounded-md sm:text-sm focus:ring-1"
+                      className="mt-2 px-2 py-1 sm:px-3 sm:py-2 sm:mt-1 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-white focus:ring-white block w-full rounded-md sm:text-sm focus:ring-1"
                       placeholder="you@mail.com"
                       required
                     />
@@ -75,7 +75,7 @@ function Contact() {
               </div>
               <div className="p-3 sm:p-5">
                 <label>
-                  <span className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-white">
+                  <span className="after:content-[&apos;*&apos;] after:ml-0.5 after:text-red-500 block text-sm font-medium text-white">
                     Message
                   </span>
                   <textarea

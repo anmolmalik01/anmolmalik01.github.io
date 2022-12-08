@@ -9,10 +9,10 @@ function About() {
 
       <div className="px-3 pt-8 sm:pl-24 sm:pr-32 sm:pt-16">
         <p className="sm:text-lg py-8 text-base lg:text-lg">
-          I am a software developer and currently a bachelor's student who have
-          interests in the fields of data science, machine learning, and web
-          development. In 2019, I saw a advertisment on social media to learn
-          web development and get a free coding certificate from their my
+          I am a software developer and currently a bachelor&apos;s student who
+          have interests in the fields of data science, machine learning, and
+          web development. In 2019, I saw a advertisment on social media to
+          learn web development and get a free coding certificate from their my
           journey to code started. Over the time I get to know that design is
           more complicated than coding it but the key to great design is
           iterating and improving. The thing that excites me most as a

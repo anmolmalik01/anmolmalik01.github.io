@@ -15,6 +15,7 @@ function Projects() {
         {/* 1 */}
         <a
           target="_blank"
+          rel="noopener noreferrer"
           href="https://weights-custom.netlify.app"
           className="group flex flex-col overflow-hidden px-8 py-11 rounded-md bg-[#87bee7] 
                   transition-all ease-out duration-500 hover:shadow-[0px_0px_100px_70px_rgba(0,0,0,1)] z-0 hover:z-10"
@@ -48,6 +49,7 @@ function Projects() {
         {/* 2 */}
         <a
           target="_blank"
+          rel="noopener noreferrer"
           href="https://weights-custom.netlify.app"
           className="group flex flex-col overflow-hidden px-8 py-11 rounded-md bg-[#66c993]  
                   transition-all ease-out duration-500 hover:shadow-[0px_0px_100px_70px_rgba(0,0,0,1)] z-0 hover:z-10"
@@ -82,6 +84,7 @@ function Projects() {
         {/* 3 */}
         <a
           target="_blank"
+          rel="noopener noreferrer"
           href="https://weights-custom.netlify.app"
           className="group flex flex-col overflow-hidden px-8 py-11 rounded-md bg-[#66c993]  
                   transition-all ease-out duration-500 hover:shadow-[0px_0px_100px_70px_rgba(0,0,0,1)] z-0 hover:z-10"
@@ -115,6 +118,7 @@ function Projects() {
         {/* 4 */}
         <a
           target="_blank"
+          rel="noopener noreferrer"
           href="https://weights-custom.netlify.app"
           className="group flex flex-col overflow-hidden px-8 py-11 rounded-md bg-[#fda381]  
                   transition-all ease-out duration-500 hover:shadow-[0px_0px_100px_70px_rgba(0,0,0,1)] z-0 hover:z-10"
@@ -149,6 +153,7 @@ function Projects() {
         {/* 5 */}
         <a
           target="_blank"
+          rel="noopener noreferrer"
           href="  "
           className="group flex flex-col overflow-hidden px-8 py-11 rounded-md bg-[#ad9ff4]   
                   transition-all ease-out duration-500 hover:shadow-[0px_0px_100px_70px_rgba(0,0,0,1)] z-0 hover:z-10"
@@ -183,6 +188,7 @@ function Projects() {
         {/* 6 */}
         <a
           target="_blank"
+          rel="noopener noreferrer"
           href=""
           className="group flex flex-col overflow-hidden px-8 py-11 rounded-md bg-[#fda381]  
                   transition-all ease-out duration-500 hover:shadow-[0px_0px_100px_70px_rgba(0,0,0,1)] z-0 hover:z-10"

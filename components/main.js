@@ -70,7 +70,7 @@ const Main = ({ className }) => {
 
       {/* image */}
       <div className="absolute top-[45%] left-[35%] sm:top-[10%] right-0 sm:right-1 md:m-4 ">
-        <Image src={portrait} className="z-10" weight={498} height={505} />
+        <Image src={portrait} className="z-10" weight={498} height={505} alt="" />
       </div>
     </div>
   );

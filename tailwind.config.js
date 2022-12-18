@@ -23,14 +23,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        gg: "#282828",
-        main: "#DE0304",
-        bb: "#5B5561",
-        blue_b: "#240090",
-        blue_c: "#190061",
-        blue_d: "#0C0032",
-        main_dark: "#DE0304",
-        light_black: "#171717",
+        dark:"#758173",
+        light: "#b7e0b1",
       },
       boxShadow: {
         "3xl": "0 35px 60px -15px rgba(1, 1, 1, 1)",

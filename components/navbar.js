@@ -9,7 +9,7 @@ const Nav = ({ className }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className={className}>
-      <div className="text-xl font-semibold font-abc">
+      <div className="text-xl font-semibold font-abc text-light">
         <nav>
           <div className="mx-full px-4 pt-3 sm:px-6 lg:px-8">
             <div className="flex justify-between w-full">
@@ -20,9 +20,9 @@ const Nav = ({ className }) => {
                     <a
                       href="./about"
                       className="relative transition ease-out duration-100 w-min-content pb-1
-                  before:w-0 before:h-[3px] before:absolute before:bottom-0 before:right-0 before:bg-[#837A75] before:transition-all before:duration-100
-                  hover:before:w-full hover:before:left-0 hover:before:bg-[#837A75]
-                  hover:text-white"
+                  before:w-0 before:h-[3px] before:absolute before:bottom-0 before:right-0 before:bg-light before:transition-all before:duration-100
+                  hover:before:w-full hover:before:left-0 hover:before:bg-light
+                  hover:text-light"
                     >
                       About
                     </a>
@@ -32,9 +32,9 @@ const Nav = ({ className }) => {
                     <a
                       href="./projects"
                       className="relative transition ease-out duration-100 w-min-content pb-1
-                            before:w-0 before:h-[3px] before:absolute before:bottom-0 before:right-0 before:bg-[#837A75] before:transition-all before:duration-100
-                            hover:before:w-full hover:before:left-0 hover:before:bg-[#837A75]
-                            hover:text-white"
+                            before:w-0 before:h-[3px] before:absolute before:bottom-0 before:right-0 before:bg-light before:transition-all before:duration-100
+                            hover:before:w-full hover:before:left-0 hover:before:bg-light
+                            hover:text-light"
                     >
                       Projects
                     </a>
@@ -43,9 +43,9 @@ const Nav = ({ className }) => {
                     <a
                       href="./contact"
                       className="relative transition ease-out duration-100 w-min-content pb-1
-                            before:w-0 before:h-[3px] before:absolute before:bottom-0 before:right-0 before:bg-[#837A75] before:transition-all before:duration-100
-                            hover:before:w-full hover:before:left-0 hover:before:bg-[#837A75]
-                            hover:text-white"
+                            before:w-0 before:h-[3px] before:absolute before:bottom-0 before:right-0 before:bg-light before:transition-all before:duration-100
+                            hover:before:w-full hover:before:left-0 hover:before:bg-light
+                            hover:text-light"
                     >
                       Contact
                     </a>

@@ -4,11 +4,14 @@ import { Transition } from "@headlessui/react";
 
 function Projects() {
   return (
-    <div className="bg-gradient-to-br from-[#2e2e2e] via-black to-black text-white">
-      <div className="flex justify-center">
+    <div className="bg-gradient-to-br from-[#2e2e2e] via-black to-black text-white ">
+      <div className="flex justify-center text-light">
+        <a href="./">
+
         <p className="leading-normal font-abc pt-16 text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-left font-bold max-w-3xl lg:max-w-4xl">
           Projects
         </p>
+        </a>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 w-full p-[3.5rem] ">
@@ -25,7 +28,8 @@ function Projects() {
           </h3>
           <h4 className="text-base py-2 sm:text-lg">Web Development</h4>
           <p className="text-black text-base h-full py-4 opacity-0 -translate-y-4 transition ease-out duration-500 group-hover:translate-y-1 group-hover:opacity-100">
-            This is a React app that calculates weight on other planets.
+            This is a React webapp that uses react states to calculate weight on
+            other planets.
           </p>
           <span className="flex flex-row pt-3">
             <p className="text-base sm:text-lg pt-1">View Information</p>
@@ -94,7 +98,8 @@ function Projects() {
           </h3>
           <h4 className="text-base py-2 sm:text-lg">Python GUI</h4>
           <p className="text-black text-base h-full py-4 opacity-0 -translate-y-4 transition ease-out duration-500 group-hover:translate-y-1 group-hover:opacity-100">
-            A openCV GUI app made in tkinter.
+            A Tkinter-based openCV GUI app that can perform face recognition and
+            detection.
           </p>
           <span className="flex flex-row pt-3">
             <p className="text-base sm:text-lg pt-1">View Information</p>
@@ -128,7 +133,8 @@ function Projects() {
           </h3>
           <h4 className="text-base py-2 sm:text-lg">Data Science</h4>
           <p className="text-black text-base h-full py-4 opacity-0 -translate-y-4 transition ease-out duration-500 group-hover:translate-y-1 group-hover:opacity-100">
-            A data science project
+            A data science project made with Plotly that visualises different
+            data from jobs (data from Kaggle)
           </p>
           <span className="flex flex-row pt-3">
             <p className="text-base sm:text-lg pt-1">View Information</p>
@@ -163,7 +169,8 @@ function Projects() {
           </h3>
           <h4 className="text-base py-2 sm:text-lg">Machine learning</h4>
           <p className="text-black text-base h-full py-4 opacity-0 -translate-y-4 transition ease-out duration-500 group-hover:translate-y-1 group-hover:opacity-100">
-            Machine learning
+            Machine learning neural network that can predict sign language (in
+            beta stage)
           </p>
           <span className="flex flex-row pt-3">
             <p className="text-base sm:text-lg pt-1">View Information</p>
@@ -198,7 +205,8 @@ function Projects() {
           </h3>
           <h4 className="text-base py-2 sm:text-lg">Data science</h4>
           <p className="text-black text-base h-full py-4 opacity-0 -translate-y-4 transition ease-out duration-500 group-hover:translate-y-1 group-hover:opacity-100">
-            Machine learning
+            A data science and machine learning project that visualises previous
+            emission data and predicts an increase in data.
           </p>
           <span className="flex flex-row pt-3">
             <p className="text-base sm:text-lg pt-1">View Information</p>

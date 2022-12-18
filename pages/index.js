@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
       {/* ========================== navigation bar ======================= */}
       <Main className="z-10 w-screen" />
-      <Nav className="absolute h-fit w-full top-[0%] z-20" />
+      <Nav className="absolute h-fit w-full top-[0%] z-50" />
       {/* ===================== SVG ===================== */}
     </div>
   );

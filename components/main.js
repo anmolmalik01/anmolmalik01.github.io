@@ -17,7 +17,7 @@ const Main = ({ className }) => {
         {/* ========================= Left ======================== */}
         <div className="w-full sm:w-min z-40 flex flex-row justify-center items-end sm:flex-col text-light">
           <div className="p-3">
-            <a href="#">
+            <a href="https://github.com/anmolmalik01">
               <FontAwesomeIcon
                 style={{ fontSize: "24px" }}
                 icon={faGithub}
@@ -27,7 +27,7 @@ const Main = ({ className }) => {
           </div>
 
           <div className="p-3">
-            <a href="#">
+            <a href="https://twitter.com/anmolmalik01">
               <FontAwesomeIcon
                 style={{ fontSize: "23px" }}
                 icon={faTwitter}
@@ -36,7 +36,7 @@ const Main = ({ className }) => {
             </a>
           </div>
           <div className=" p-3 ">
-            <a href="#">
+            <a href="https://medium.com/anmolmalik01">
               <FontAwesomeIcon
                 style={{ fontSize: "20px" }}
                 icon={faMedium}
@@ -45,7 +45,7 @@ const Main = ({ className }) => {
             </a>
           </div>
           <div className="p-3">
-            <a href="#">
+            <a href="https://instagram.com/anmolmalik01">
               <FontAwesomeIcon
                 style={{ fontSize: "26px" }}
                 icon={faInstagram}

@@ -59,8 +59,8 @@ const Main = ({ className }) => {
       {/* color block */}
       <div className="absolute z-0 w-screen h-[50%] bg-dark top-[50%]"></div>
       {/* name */}
-      <div className="absolute top-[32%] sm:top-[42%] flex flex-col z-20 justify-center left-[20%] sm:left-[15%]">
-        <p className="text-2xl sm:text-3xl md:text-6xl lg:text-7xl font-bold font-abc text-light ">
+      <div className="absolute top-[25%] sm:top-[42%] flex flex-col z-20 justify-center left-[20%] sm:left-[15%]">
+        <p className="text-4xl sm:text-3xl md:text-6xl lg:text-7xl font-bold font-abc text-light ">
           Anmol Malik
         </p>
         <p className="z-10 mx-3 text-base sm:text-xl font-abc text-light">
@@ -69,7 +69,7 @@ const Main = ({ className }) => {
       </div>
 
       {/* image */}
-      <div className="absolute top-[40%] left-[35%] sm:top-[10%] right-0 sm:right-1 md:m-4 ">
+      <div className="absolute top-[47%] left-[27%] sm:top-[10%] sm:right-1 md:m-4 ">
         <Image
           src={portrait}
           className="z-10"

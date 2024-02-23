@@ -1,17 +1,19 @@
 function About() {
   return (
-    <div className="bg-gradient-to-br from-[#2e2e2e] via-black to-black text-white">
+    <div className="bg-dark text-black">
       {/* main heading */}
       <div className="px-6">
         <a href="./">
-          <p className="text-light leading-normal font-abc pt-[34%] sm:pt-[18%] lg:pt-[13%] pl-[6%] pr-[3%] text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-left font-bold max-w-3xl lg:max-w-4xl">
+          <p className="text-white leading-normal font-abc 
+           pl-[6%] pr-[3%] pt-[25%] sm:pt-[18%] lg:pt-[13%]
+          text-4xl sm:text-6xl md:text-8xl text-left font-bold max-w-3xl lg:max-w-4xl">
             Little about me...
           </p>
         </a>
       </div>
 
-      <div className="px-3 pt-8 sm:pl-24 sm:pr-32 sm:pt-16">
-        <p className="sm:text-lg py-8 text-base lg:text-lg">
+      <div className="px-6 pt-8 sm:px-32 sm:pt-16">
+        <p className="sm:text-lg py-8 mb-10 text-base lg:text-lg">
           I am a software developer and currently a bachelor&apos;s student who
           have interests in the fields of data science, machine learning, and
           web development. In 2019, I saw an advertisement on social media to
@@ -31,62 +33,80 @@ function About() {
       </div>
 
       {/* ================================================================== */}
-      <div className="bg-dark text-black px-3 pt-8 sm:pl-24 sm:pr-32 sm:pt-16">
+      <div className="bg-light text-extra py-[5rem] px-7 sm:p-10">
         <p className="text-2xl lg:text-3xl pb-4">Skills</p>
 
-        <p className="px-5 py-3">Web development</p>
-        <p className="px-20">
-          HTML5
-          <br />
-          CSS3
-          <br />
-          Bootstrap
-          <br />
-          Tailwind
-          <br />
-          JavaScript
-          <br />
-          React
-          <br />
-          NExt
-        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
 
-        <p className="px-5 pt-7 pb-3">Industry knowledge</p>
-        <p className="px-20">
-          UI UX
-          <br />
-          Git/ Github
-          <br />
-          Prototyping
-          <br />
-          Wireframing
-        </p>
+          <div className="card1 backdrop-blur-lg p-6 rounded-lg shadow-md min-w-full sm:min-w-0">
+            <p className="px-2 py-2 font-bold text-xl text-white">Web development</p>
+            <div className="px-10 py-3 bg-white opacity-80 rounded-lg">
+              <ul className="list-disc">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap/ Tailwind</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Next.js</li>
+                <li>PostgressSQL</li>
+                <li>MongoDB</li>
+                <li>ExpressJs</li>
+                <li>NodeJs</li>
+              </ul>
+            </div>
+          </div>
 
-        <p className="px-5 pt-7 pb-3">
-          Machine Learning && Data Science
-        </p>
-        <p className="px-20">
-          Numpy
-          <br />
-          Pandas
-          <br />
-          Matplotlib
-          <br />
-          Seaborn
-          <br />
-          Plotly
-          <br />
-          Sklearn
-          <br />
-          Tensorflow
-        </p>
+          <div className="card2 backdrop-blur-lg p-6 rounded-lg shadow-md min-w-full sm:min-w-0">
+            <p className="px-2 py-2 font-bold text-xl text-white">Web development</p>
+            <div className="px-10 py-3 bg-white opacity-80 rounded-lg">
+              <ul className="list-disc">
+                <li></li>
+                <li>Git/ Github</li>
+                <li>Prototyping</li>
+                <li>Wireframing</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="card3 backdrop-blur-lg p-6 rounded-lg shadow-md min-w-full sm:min-w-0">
+            <p className="px-2 py-2 font-bold text-xl text-white">Web development</p>
+            <div className="px-10 py-3 bg-white opacity-80 rounded-lg">
+              <ul className="list-disc">
+                <li>Numpy</li>
+                <li>Pandas</li>
+                <li>Matplotlib</li>
+                <li>Seaborn</li>
+                <li>Plotly</li>
+                <li>Sklearn</li>
+                <li>Tensorflow</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="card4 backdrop-blur-lg p-6 rounded-lg shadow-md min-w-full sm:min-w-0">
+            <p className="px-2 py-2 font-bold text-xl text-white">Web development</p>
+            <div className="px-10 py-3 bg-white opacity-80 rounded-lg">
+              <ul className="list-disc">
+                <li>Git/ Github</li>
+                <li>Linux</li>
+                <li>PowerBI/ Tableau</li>
+                <li>IBM </li>
+                <li>Plotly</li>
+                <li>Sklearn</li>
+                <li>Tensorflow</li>
+              </ul>
+            </div>
+          </div>
+
+
+        </div>
       </div>
 
       {/* ================================================================== */}
-      <div className="px-3 pt-8 sm:pl-24 sm:pr-32 sm:pt-16">
+      <div className="px-3 py-6 sm:pl-24 sm:pr-32 sm:pt-16">
         <p className="text-light text-2xl lg:text-3xl pt-10">Some thoughts</p>
 
-        <p className="py-8 pl-6 sm:text-lg text-base lg:text-lg">
+        <p className="sm:text-lg py-[2rem] text-base lg:text-lg">
           Artifical Intetlligence have always make me wonder how pieces of metal
           thinks and is getting closer to humanity. A journey from wondering to
           creating have been and continuously will be. Universe is filled with

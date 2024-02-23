@@ -1,84 +1,78 @@
 import Image from "next/image";
 import portrait from "../images/portrait.png";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGithub,
-  faTwitter,
-  faInstagram,
-  faMedium,
-} from "@fortawesome/free-brands-svg-icons";
+import Side from "./side";
+import MovingText from "./round";
 
 const Main = ({ className }) => {
   return (
-    <div className={className}>
-      {/* ========================= main ======================= */}
-      <div className="flex flex-row h-100v">
-        {/* ========================= Left ======================== */}
-        <div className="w-full sm:w-min z-40 flex flex-row justify-center items-end sm:flex-col text-light">
-          <div className="p-3">
-            <a href="https://github.com/anmolmalik01">
-              <FontAwesomeIcon
-                style={{ fontSize: "24px" }}
-                icon={faGithub}
-                className="opacity-90 transition-all hover:scale-110 hover:text-white hover:opacity-100 duration-75"
-              />
-            </a>
-          </div>
+    <div className={className} >
 
-          <div className="p-3">
-            <a href="https://twitter.com/anmolmalik01">
-              <FontAwesomeIcon
-                style={{ fontSize: "23px" }}
-                icon={faTwitter}
-                className="opacity-90 transition-all hover:scale-110 hover:text-white hover:opacity-100 duration-75"
-              />
-            </a>
+      {/* shotting starts */}
+      <section className="star z-0">
+        <span className="star-child"></span>
+        <span className="star-child"></span>
+        <span className="star-child"></span>
+        <span className="star-child"></span>
+        <span className="star-child"></span>
+        <span className="star-child"></span>
+        <span className="star-child"></span>
+        <span className="star-child"></span>
+        <span className="star-child"></span>
+        <span className="star-child"></span>
+      </section>
+
+
+      <div className="flex flex-col sm:flex-row h-screen w-screen">
+
+        {/* ============ 1st column ======================= */}
+        <div className="hidden sm:flex w-min p-4">
+          <Side />
+        </div>
+
+        {/* ============== 2nd column ============= */}
+        <div class="flex flex-row sm:flex-col h-1/2 sm:h-screen justify-center items-center z-10 px-10 sm:pl-[5rem] py-[2rem] sm:py-[4rem]">
+          <div class="flex justify-center items-center h-1/2">
+            <div>
+              <p className="text-2xl sm:text-5xl md:text-6xl font-bold font-abc text-light">
+                <span className="">Hi, I'm</span>
+                <span className="text-white px-4">Anmol Malik</span>
+              </p>
+              <div>
+                <span className="text-sm sm:text-base md:text-xl text-light font-arial">- Trying to shape the future with flair</span>
+              </div>
+            </div>
           </div>
-          <div className=" p-3 ">
-            <a href="https://medium.com/anmolmalik01">
-              <FontAwesomeIcon
-                style={{ fontSize: "20px" }}
-                icon={faMedium}
-                className="opacity-90 transition-all hover:scale-110 hover:text-white hover:opacity-100 duration-75"
-              />
-            </a>
-          </div>
-          <div className="p-3">
-            <a href="https://instagram.com/anmolmalik01">
-              <FontAwesomeIcon
-                style={{ fontSize: "26px" }}
-                icon={faInstagram}
-                className="opacity-90 transition-all hover:scale-110 hover:text-white hover:opacity-100 duration-75"
-              />
-            </a>
+          <div class="flex h-1/2 justify-center items-center">
+            <MovingText />
           </div>
         </div>
+
+
+        {/* 3rd column */}
+        <div className="flex justify-center">
+          <div className="flex justify-center items-center w-3/4 w-screen sm:h-full sm:w-full ">
+            <Image
+              src={portrait}
+              className="z-10"
+              weight={498}
+              height={505}
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div className="sm:hidden p-4 absolute bottom-0 left-0 right-0 z-10">
+          <Side />
+        </div>
+
       </div>
+
 
       {/* color block */}
-      <div className="absolute z-0 w-screen h-[50%] bg-dark top-[50%]"></div>
-      {/* name */}
-      <div className="absolute top-[25%] sm:top-[42%] flex flex-col z-20 justify-center left-[20%] sm:left-[15%]">
-        <p className="text-4xl sm:text-3xl md:text-6xl lg:text-7xl font-bold font-abc text-light ">
-          Anmol Malik
-        </p>
-        <p className="z-10 mx-3 text-base sm:text-xl font-abc text-light">
-          Developer ~ Designer
-        </p>
+      <div className="absolute z-0 w-screen h-[50%] bg-light top-[50%]">
       </div>
-
-      {/* image */}
-      <div className="absolute top-[47%] left-[27%] sm:top-[10%] sm:right-1 md:m-4 ">
-        <Image
-          src={portrait}
-          className="z-10"
-          weight={498}
-          height={505}
-          alt=""
-        />
-      </div>
-    </div>
+    </div >
   );
 };
 

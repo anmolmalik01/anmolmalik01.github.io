@@ -8,7 +8,7 @@ import Main from "../components/main"
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-br from-[#2e2e2e] via-black to-black text-white">
+    <div className="bg-dark">
       {/* ========================= Header ========================== */}
       <Head>
         <title>Anmol Malik</title>
@@ -16,8 +16,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* ========================== navigation bar ======================= */}
-      <Main className="z-10 w-screen" />
       <Nav className="absolute h-fit w-full top-[0%] z-50" />
+      <Main className="z-10 w-screen " />
       {/* ===================== SVG ===================== */}
     </div>
   );

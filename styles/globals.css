@@ -17,3 +17,459 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+/* ========================== shotting stars ========================== */
+
+.star{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:  90vh; /* Adjust this value as needed */
+  overflow: hidden; /* This hides any child elements that go beyond the container's bounds */
+  animation: animateBg 50s linear infinite;
+}
+
+@keyframes animateBg {
+  0%,100%
+  {
+      transform:scale(1);
+  }
+  50%
+  {
+      transform:scale(1.2);
+  }
+}
+.star-child{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4px;
+  height: 4px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.1), 0 0 0 8px rgba(255, 255, 255, 0.1), 0 0 20px rgba(255, 255, 255, 1)  ;
+  animation:  animate 3s linear infinite;
+}
+.star-child::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+  height: 1px;
+  background: linear-gradient(90deg, #fff, transparent);
+}
+
+@keyframes animate {
+  0%
+  {
+      transform: rotate(315deg) translateX(0);
+      opacity: 1;
+  }
+  70%
+  {
+      opacity: 1;
+
+  }
+  100%
+  {
+      transform: rotate(315deg) translateX(-1500px);
+      opacity: 0;
+
+  }
+  
+}
+span:nth-child(1){
+  top: 0;
+  right: 0;
+  left:initial;
+  animation-delay:0 ;
+  animation-duration: 1s;
+}
+
+span:nth-child(2){
+  top: 0;
+  right: 80px;
+  left:initial;
+  animation-delay:0.2s;
+  animation-duration: 3s;
+}
+
+span:nth-child(3){
+  top: 80px;
+  right: 0px;
+  left:initial;
+  animation-delay:0.4s ;
+  animation-duration: 2s;
+}
+
+span:nth-child(4){
+  top: 0;
+  right: 180px;
+  left:initial;
+  animation-delay:0.6s;
+  animation-duration: 1.5s;
+}
+
+span:nth-child(5){
+  top: 0;
+  right: 400px;
+  left:initial;
+  animation-delay:0.8s;
+  animation-duration: 2.5s;
+}
+
+span:nth-child(6){
+  top: 0;
+  right: 600px;
+  left:initial;
+  animation-delay:1s ;
+  animation-duration: 3s;
+}
+span:nth-child(7 ){
+  top: 300px;
+  right: 0px;
+  left:initial;
+  animation-delay:1s ;
+  animation-duration: 1.75s;
+}
+
+span:nth-child(8){
+  top: 0px;
+  right: 700px;
+  left:initial;
+  animation-delay:1.4s ;
+  animation-duration: 1.25s;
+}
+
+span:nth-child(9){
+  top: 0px;
+  right: 1000px;
+  left:initial;
+  animation-delay:0.75s ;
+  animation-duration: 2.25s;
+}
+
+span:nth-child(10){
+  top: 0px;
+  right: 1000px;
+  left:initial;
+  animation-delay:2.75s ;
+  animation-duration: 2.25s;
+}
+
+
+
+.line-before::before,
+.line-after::after {
+  content: '';
+  display: inline-block;
+  width: 10rem; /* Adjust as needed */
+  height: 0.2rem; /* Adjust as needed */
+  background-color: #1c1c1c; /* Adjust color as needed */
+  vertical-align: middle;
+}
+
+.line-before::before {
+  margin-right: 0px; /* Adjust spacing as needed */
+}
+
+.line-after::after {
+  margin-left: 0px; /* Adjust spacing as needed */
+}
+
+
+
+@media (max-width: 768px) {
+  .line-before::before,
+  .line-after::after {
+    width: 8rem; /* Adjust width for smaller screens */
+  }
+}
+
+@media (max-width: 640px) {
+  .line-before::before,
+  .line-after::after {
+    width: 6rem; /* Adjust width for even smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .line-before::before,
+  .line-after::after {
+    width: 2rem; /* Adjust width for very small screens */
+  }
+}
+
+
+
+.bg-background-image  {
+  position: relative; /* Required for the pseudo-element to position itself correctly */
+}
+
+.bg-background-image::before {
+  content: ""; /* Required for the pseudo-element to work */
+  position: absolute;
+  top:  0;
+  left:  0;
+  width:  100%;
+  height:  100%;
+  background-image: url('../images/form9.jpg'); /* Your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity:  0.9; /* Adjust this value to change the opacity of the background image */
+  z-index: -1; /* Ensures the pseudo-element is behind the form content */
+}
+
+.card1, .card2, .card3, .card4 {
+  position: relative; /* Required for the pseudo-element to position itself correctly */
+  overflow: hidden; /* Ensure the overflow doesn't display content outside the card */
+}
+
+.card1::before {
+  content: ""; /* Required for the pseudo-element to work */
+  position: absolute;
+  top:  0;
+  left:  0;
+  width:  100%;
+  height:  100%;
+  background-image: url('../images/card1.jpg'); /* Your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity:  0.9; /* Initial opacity */
+  transition: opacity 0.3s, transform 0.3s; /* Transition for smooth effect */
+  z-index: -1; /* Ensures the pseudo-element is behind the form content */
+}
+
+.card2::before {
+  content: ""; /* Required for the pseudo-element to work */
+  position: absolute;
+  top:  0;
+  left:  0;
+  width:  100%;
+  height:  100%;
+  background-image: url('../images/card2.jpg'); /* Your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity:  0.9; /* Initial opacity */
+  transition: opacity 0.3s, transform 0.3s; /* Transition for smooth effect */
+  z-index: -1; /* Ensures the pseudo-element is behind the form content */
+}
+
+.card3::before { 
+  content: ""; /* Required for the pseudo-element to work */
+  position: absolute;
+  top:  0;
+  left:  0;
+  width:  100%;
+  height:  100%;
+  background-image: url('../images/card3.jpg'); /* Your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity:  0.9; /* Initial opacity */
+  transition: opacity 0.3s, transform 0.3s; /* Transition for smooth effect */
+  z-index: -1; /* Ensures the pseudo-element is behind the form content */
+}
+
+.card4::before { 
+  content: ""; /* Required for the pseudo-element to work */
+  position: absolute;
+  top:  0;
+  left:  0;
+  width:  100%;
+  height:  100%;
+  background-image: url('../images/card3.jpg'); /* Your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity:  0.9; /* Initial opacity */
+  transition: opacity 0.3s, transform 0.3s; /* Transition for smooth effect */
+  z-index: -1; /* Ensures the pseudo-element is behind the form content */
+}
+
+.card1:hover::before, .card2:hover::before, .card3:hover::before, .card4:hover::before {
+  opacity:  1; /* Adjust this value to change the opacity of the background image */
+  transform: scale(1.3); /* Zoom out effect on hover */
+}
+
+
+/* ============================= smoke ============================= */
+
+
+
+
+.smoke-wrap {
+  position: absolute;
+}
+
+.smoke,
+.smoke2,
+.smoke3 {
+  filter: blur(5px);
+  transform-origin: 50% 50%;
+}
+
+.smoke {
+  animation: smoke1 3s linear infinite;
+  animation-delay: 0.5s;
+}
+
+.smoke2 {
+  animation: smoke2 3s linear infinite;
+  animation-delay: 1.5s;
+}
+
+.smoke3 {
+  width: 500px;
+  animation: smoke3 4s linear infinite;
+  animation-delay: 2.5s;
+}
+
+@keyframes smoke1 {
+  0% {
+    filter: blur(0px);
+    transform: translateY(0px) scale(-1, 1);
+    opacity: 0;
+  }
+
+  25% {
+    filter: blur(3px);
+    transform: translateY(-10px) scale(-1, 1.05);
+    opacity: 0.5;
+  }
+
+  50% {
+    filter: blur(5px);
+    transform: translateY(-20px) scale(-1, 1.1);
+    opacity: 1;
+  }
+
+  75% {
+    filter: blur(5px);
+    transform: translateY(-30px) scale(-1, 1.15);
+    opacity: 0.5;
+  }
+
+  100% {
+    filter: blur(7px);
+    transform: translateY(-40px) scale(-1, 1.2);
+    opacity: 0;
+  }
+}
+
+@keyframes smoke2 {
+  0% {
+    filter: blur(0px);
+    transform: translateY(0px) scale(1);
+    opacity: 0;
+  }
+
+  25% {
+    filter: blur(3px);
+    transform: translateY(-10px) scale(1.05);
+    opacity: 0.5;
+  }
+
+  50% {
+    filter: blur(5px);
+    transform: translateY(-20px) scale(1.1);
+    opacity: 1;
+  }
+
+  75% {
+    filter: blur(5px);
+    transform: translateY(-30px) scale(1.15);
+    opacity: 0.5;
+  }
+
+  100% {
+    filter: blur(7px);
+    transform: translateY(-40px) scale(1.2);
+    opacity: 0;
+  }
+}
+
+@keyframes smoke3 {
+  0% {
+    filter: blur(0px);
+    transform: translateY(0px) scale(1);
+    opacity: 0;
+  }
+
+  25% {
+    filter: blur(3px);
+    transform: translateY(-20px) scale(1.05);
+    opacity: 0.5;
+  }
+
+  50% {
+    filter: blur(5px);
+    transform: translateY(-40px) scale(1.1);
+    opacity: 1;
+  }
+
+  75% {
+    filter: blur(5px);
+    transform: translateY(-60px) scale(1.15);
+    opacity: 0.5;
+  }
+
+  100% {
+    filter: blur(7px);
+    transform: translateY(-80px) scale(1.2);
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+.text {
+  font-weight: 600;
+  letter-spacing: 0.5rem;
+  font-family: 'Open Sans';
+  font-size: 23px;
+  fill: #111;
+}
+
+#rotatingText {
+  animation-name: rotate-circle;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate-circle {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+
+
+.main {
+  position: relative;
+}
+
+
+.text {
+  fill: black; /* Change the color of the text */
+}
+
+.main::before {
+  content: "";
+  position: absolute;
+  transform: translate(22%, 15%);
+  width: 140px; /* Adjust width as needed */
+  height: 140px; /* Adjust height as needed */
+  background-image: url('../images/developer.gif'); /* Path to your image */
+  background-size: cover; /* Adjust as needed */
+  border-radius: 50%; /* Ensures it's a circle */
+  z-index: 1; /* Ensure it's above the SVG */
+}

@@ -9,7 +9,7 @@ const Nav = ({ className }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className={className}>
-      <div className="text-xl font-semibold font-abc text-light">
+      <div className="text-xl font-semibold font-abc text-white">
         <nav>
           <div className="mx-full px-4 pt-3 sm:px-6 lg:px-8">
             <div className="flex justify-between w-full">
@@ -20,9 +20,8 @@ const Nav = ({ className }) => {
                     <a
                       href="./about"
                       className="relative transition ease-out duration-100 w-min-content pb-1
-                  before:w-0 before:h-[3px] before:absolute before:bottom-0 before:right-0 before:bg-light before:transition-all before:duration-100
-                  hover:before:w-full hover:before:left-0 hover:before:bg-light
-                  hover:text-light"
+                  before:w-0 before:h-[3px] before:absolute before:bottom-0 before:right-0 before:bg-extra before:transition-all before:duration-100
+                  before:w-full before:left-0 before:bg-extra hover:text-light"
                     >
                       About
                     </a>
@@ -32,9 +31,8 @@ const Nav = ({ className }) => {
                     <a
                       href="./projects"
                       className="relative transition ease-out duration-100 w-min-content pb-1
-                            before:w-0 before:h-[3px] before:absolute before:bottom-0 before:right-0 before:bg-light before:transition-all before:duration-100
-                            hover:before:w-full hover:before:left-0 hover:before:bg-light
-                            hover:text-light"
+                  before:w-0 before:h-[3px] before:absolute before:bottom-0 before:right-0 before:bg-extra before:transition-all before:duration-100
+                  before:w-full before:left-0 before:bg-extra hover:text-light"
                     >
                       Projects
                     </a>
@@ -43,9 +41,8 @@ const Nav = ({ className }) => {
                     <a
                       href="./contact"
                       className="relative transition ease-out duration-100 w-min-content pb-1
-                            before:w-0 before:h-[3px] before:absolute before:bottom-0 before:right-0 before:bg-light before:transition-all before:duration-100
-                            hover:before:w-full hover:before:left-0 hover:before:bg-light
-                            hover:text-light"
+                  before:w-0 before:h-[3px] before:absolute before:bottom-0 before:right-0 before:bg-extra before:transition-all before:duration-100
+                  before:w-full before:left-0 before:bg-extra hover:text-light"
                     >
                       Contact
                     </a>
@@ -56,7 +53,7 @@ const Nav = ({ className }) => {
                 <button
                   onClick={() => setIsOpen(!isOpen)}
                   type="button"
-                  className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                  className="bg-extra inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-gray-800 focus:outline-none"
                   aria-controls="mobile-menu"
                   aria-expanded="false"
                 >
@@ -110,24 +107,24 @@ const Nav = ({ className }) => {
           >
             {(ref) => (
               <div className="md:hidden" id="mobile-menu">
-                <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-extra">
                   <a
                     href="./about"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                    className="text-gray-300 hover:bg-light hover:text-extra block px-3 py-2 rounded-md text-base font-medium"
                   >
                     About
                   </a>
 
                   <a
                     href="./projects"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                    className="text-gray-300 hover:bg-light hover:text-extra block px-3 py-2 rounded-md text-base font-medium"
                   >
                     Projects
                   </a>
 
                   <a
                     href="./contact"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                    className="text-gray-300 hover:bg-light hover:text-extra block px-3 py-2 rounded-md text-base font-medium"
                   >
                     Contact
                   </a>

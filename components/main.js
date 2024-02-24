@@ -31,11 +31,11 @@ const Main = ({ className }) => {
         </div>
 
         {/* ============== 2nd column ============= */}
-        <div class="flex flex-row sm:flex-col h-1/2 sm:h-screen justify-center items-center z-10 px-10 sm:pl-[5rem] py-[2rem] sm:py-[4rem]">
-          <div class="flex justify-center items-center h-1/2">
+        <div className="flex flex-row sm:flex-col h-1/2 sm:h-screen justify-center items-center z-10 px-10 sm:pl-[5rem] py-[2rem] sm:py-[4rem]">
+          <div className="flex justify-center items-center h-1/2">
             <div>
               <p className="text-2xl sm:text-5xl md:text-6xl font-bold font-abc text-light">
-                <span className="">Hi, I'm</span>
+                <span className="">Hi, I&apos;m</span>
                 <span className="text-white px-4">Anmol Malik</span>
               </p>
               <div>
@@ -43,7 +43,7 @@ const Main = ({ className }) => {
               </div>
             </div>
           </div>
-          <div class="flex h-1/2 justify-center items-center">
+          <div className="flex h-1/2 justify-center items-center">
             <MovingText />
           </div>
         </div>

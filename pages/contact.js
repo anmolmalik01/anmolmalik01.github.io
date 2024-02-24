@@ -16,10 +16,10 @@ function Contact() {
           </p>
 
           <p className=" text-extra text-base lg:text-lg">
-            I'm excited to collaborate with companies, individuals, and startups to bring innovative ideas to life in the business world. With a passion for turning concepts into tangible successes, I bring a wealth of knowledge and skills to the table. Whether it's refining existing projects or spearheading new ventures, I'm here to make it happen.
+            I&apos;m excited to collaborate with companies, individuals, and startups to bring innovative ideas to life in the business world. With a passion for turning concepts into tangible successes, I bring a wealth of knowledge and skills to the table. Whether it&apos;s refining existing projects or spearheading new ventures, I&apos;m here to make it happen.
             <br />
             <br/>
-            If you're ready to transform your vision into reality, let's connect. Feel free to reach out to me using the contact information below. I'm eager to hear about your projects and explore how we can work together to achieve greatness.
+            If you&apos;re ready to transform your vision into reality, let&apos;s connect. Feel free to reach out to me using the contact information below. I&apos;m eager to hear about your projects and explore how we can work together to achieve greatness.
             <br/>
             <br/>
             Looking forward to collaborating with you!

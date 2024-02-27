@@ -1,14 +1,15 @@
 import React from "react";
 
-const ProjectCard = ({ color, name, description, field, link }) => {
+const ProjectCard = ({ color, name, description, field, link, style }) => {
   return (
     <a
       target="_blank"
       rel="noopener noreferrer"
       href={link}
-      className={`group flex flex-col overflow-hidden px-5 sm:px-8 py-6 sm:py-11 rounded-md bg-${color}  
+      style={{ backgroundColor: color, ...style }} // Apply the inline style here
+      className={`group flex flex-col overflow-hidden px-5 sm:px-8 py-6 sm:py-11 rounded-md  
         transition-all ease-out duration-500 hover:shadow-[0px_0px_100px_70px_rgba(0,0,0,1)] z-0 hover:z-10`}
-    >
+      >
       <h3 className="text-extra text-2xl pb-2 sm:pb-3 sm:text-3xl sm:pb-6 leading-none border-b-2 border-dark">
         {name}
       </h3>

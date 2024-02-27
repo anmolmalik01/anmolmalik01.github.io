@@ -216,7 +216,7 @@ span:nth-child(10){
   left:  0;
   width:  100%;
   height:  100%;
-  background-image: url('../images/form9.jpg'); /* Your background image */
+  background-image: url('../public/images/form9.jpg'); /* Your background image */
   background-size: cover;
   background-repeat: no-repeat;
   opacity:  0.9; /* Adjust this value to change the opacity of the background image */
@@ -235,7 +235,7 @@ span:nth-child(10){
   left:  0;
   width:  100%;
   height:  100%;
-  background-image: url('../images/card1.jpg'); /* Your background image */
+  background-image: url('../public/images/card1.jpg'); /* Your background image */
   background-size: cover;
   background-repeat: no-repeat;
   opacity:  0.9; /* Initial opacity */
@@ -250,7 +250,7 @@ span:nth-child(10){
   left:  0;
   width:  100%;
   height:  100%;
-  background-image: url('../images/card2.jpg'); /* Your background image */
+  background-image: url('../public/images/card2.jpg'); /* Your background image */
   background-size: cover;
   background-repeat: no-repeat;
   opacity:  0.9; /* Initial opacity */
@@ -265,7 +265,7 @@ span:nth-child(10){
   left:  0;
   width:  100%;
   height:  100%;
-  background-image: url('../images/card3.jpg'); /* Your background image */
+  background-image: url('../public/images/card3.jpg'); /* Your background image */
   background-size: cover;
   background-repeat: no-repeat;
   opacity:  0.9; /* Initial opacity */
@@ -280,7 +280,7 @@ span:nth-child(10){
   left:  0;
   width:  100%;
   height:  100%;
-  background-image: url('../images/card3.jpg'); /* Your background image */
+  background-image: url('../public/images/card3.jpg'); /* Your background image */
   background-size: cover;
   background-repeat: no-repeat;
   opacity:  0.9; /* Initial opacity */
@@ -468,7 +468,7 @@ span:nth-child(10){
   transform: translate(22%, 15%);
   width: 140px; /* Adjust width as needed */
   height: 140px; /* Adjust height as needed */
-  background-image: url('../images/developer.gif'); /* Path to your image */
+  background-image: url('../public/images/developer.gif'); /* Path to your image */
   background-size: cover; /* Adjust as needed */
   border-radius: 50%; /* Ensures it's a circle */
   z-index: 1; /* Ensure it's above the SVG */

@@ -7,7 +7,7 @@ function Contact() {
           Let&apos;s create one that stands
         </p>
       </a>
-      {/* contact me */}
+      {/* contact me */} 
       <div>
         <div className="px-[5%] pt-[8%] md:pt-[8%]">
           {/* contact me heading */}

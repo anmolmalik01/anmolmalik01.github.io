@@ -3,8 +3,6 @@ import { Transition } from "@headlessui/react";
 
 import Image from "next/image";
 
-import Logo from "../images/Logo.js";
-
 const Nav = ({ className }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (

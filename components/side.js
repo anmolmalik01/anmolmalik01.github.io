@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faTwitter,
-  faInstagram,
+  faLinkedin,
   faMedium,
 } from "@fortawesome/free-brands-svg-icons";
 
@@ -40,10 +40,10 @@ const Side = () => {
         </a>
       </div>
       <div className="p-3">
-        <a href="https://instagram.com/anmolmalik01">
+        <a href="https://www.linkedin.com/in/anmolmalik01/">
           <FontAwesomeIcon
             style={{ fontSize: "26px" }}
-            icon={faInstagram}
+            icon={faLinkedin}
             className="opacity-90 transition-all duration-200 ease-in-out hover:scale-110 hover:text-dark hover:text-extra hover:opacity-100"
           />
         </a>

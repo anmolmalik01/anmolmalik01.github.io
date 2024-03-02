@@ -1,45 +1,40 @@
 function About() {
   return (
-    <div className="bg-dark text-black">
+    <div className="bg-light text-black">
       {/* main heading */}
       <div className="px-6">
         <a href="./">
-          <p className="text-white leading-normal font-abc 
+          <p className="text-dark leading-normal font-abc 
            pl-[6%] pr-[3%] pt-[25%] sm:pt-[18%] lg:pt-[13%]
-          text-4xl sm:text-6xl md:text-8xl text-left font-bold max-w-3xl lg:max-w-4xl">
+          text-4xl sm:text-7xl md:text-8xl text-left font-bold max-w-3xl lg:max-w-4xl">
             Little about me...
           </p>
         </a>
       </div>
 
-      <div className="px-6 pt-8 sm:px-32 sm:pt-16">
+      <div className="px-6 pt-8 sm:px-[15%] sm:pt-16">
         <p className="sm:text-lg py-8 mb-10 text-base lg:text-lg">
-          I am a software developer and currently a bachelor&apos;s student who
-          have interests in the fields of data science, machine learning, and
-          web development. In 2019, I saw an advertisement on social media to
-          learn web development and get a free coding certificate from their my
-          journey to code started. Over the time I get to know that design is
-          more complicated than coding it, but the key to great design is
-          iterating and improving. The thing that excites me most as a
-          Development is being able to design and create things that solve real
-          problems. Programming has taught me problem-solving skills, not just
-          on screens, but in other fields too.
+          Hey there! I'm a budding software developer currently rocking my bachelor's degree. My passion? It's all about diving deep into the worlds of data science, machine learning, and web development.
           <br />
-          <br />I like websites with a clean UI, responsive. I have worked on
-          different side projects in different domains. Side projects have
-          always exiting me, as they are revolting, interesting, and always take
-          a lot of more than expected but gives more than thought.
+          <br />
+          My coding adventure started back in 2019, thanks to a tempting ad on social media offering free coding certificates for web development. Little did I know, this was just the beginning of an exhilarating journey! As I delved into the realm of design, I discovered that while it may seem more complex than coding at first glance, the real magic lies in constant tinkering and refining.
+          <br />
+          <br />
+          What gets me pumped about development is the thrill of crafting solutions that tackle real-world challenges head-on. Through coding, I've not only sharpened my problem-solving skills on-screen but also found myself applying them to all sorts of other areas.
+          <br />
+          <br />
+          I love making websites that are clean, user-friendly vibe that looks awesome on any device. And when it comes to side projects, count me in! They're like mini revolutions—constantly surprising, endlessly fascinating, and always teaching me more than I ever expected.
         </p>
       </div>
 
       {/* ================================================================== */}
-      <div className="bg-light text-extra py-[5rem] px-7 sm:p-10">
-        <p className="text-2xl lg:text-3xl pb-4">Skills</p>
+      <div className="bg-dark text-extra py-[5rem] px-7 sm:p-16">
+        <p className="text-3xl sm:text-5xl pb-8 font-bold text-light font-abc">Skills</p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
 
           <div className="card1 backdrop-blur-lg p-6 rounded-lg shadow-md min-w-full sm:min-w-0">
-            <p className="px-2 py-2 font-bold text-xl text-white">Web development</p>
+            <p className="px-2 py-3 font-bold text-xl text-white">Web development</p>
             <div className="px-10 py-3 bg-white opacity-80 rounded-lg">
               <ul className="list-disc">
                 <li>HTML</li>
@@ -51,75 +46,61 @@ function About() {
                 <li>PostgressSQL</li>
                 <li>MongoDB</li>
                 <li>ExpressJs</li>
+                <li>Flask</li>
                 <li>NodeJs</li>
               </ul>
             </div>
           </div>
 
-          <div className="card2 backdrop-blur-lg p-6 rounded-lg shadow-md min-w-full sm:min-w-0">
-            <p className="px-2 py-2 font-bold text-xl text-white">Web development</p>
-            <div className="px-10 py-3 bg-white opacity-80 rounded-lg">
-              <ul className="list-disc">
-                <li></li>
-                <li>Git/ Github</li>
-                <li>Prototyping</li>
-                <li>Wireframing</li>
-              </ul>
-            </div>
-          </div>
-
           <div className="card3 backdrop-blur-lg p-6 rounded-lg shadow-md min-w-full sm:min-w-0">
-            <p className="px-2 py-2 font-bold text-xl text-white">Web development</p>
+            <p className="px-2 py-3 font-bold text-xl text-white">Data Science</p>
             <div className="px-10 py-3 bg-white opacity-80 rounded-lg">
               <ul className="list-disc">
                 <li>Numpy</li>
                 <li>Pandas</li>
                 <li>Matplotlib</li>
                 <li>Seaborn</li>
-                <li>Plotly</li>
                 <li>Sklearn</li>
                 <li>Tensorflow</li>
+                <li>XGBoost</li>
+                <li>SQL</li>
+                <li>Apache Spark</li>
+                <li>Apache Airflow</li>
               </ul>
             </div>
           </div>
 
-          <div className="card4 backdrop-blur-lg p-6 rounded-lg shadow-md min-w-full sm:min-w-0">
-            <p className="px-2 py-2 font-bold text-xl text-white">Web development</p>
+          <div className="card2 backdrop-blur-lg p-6 rounded-lg shadow-md min-w-full sm:min-w-0">
+            <p className="px-2 py-3 font-bold text-xl text-white">Tools</p>
             <div className="px-10 py-3 bg-white opacity-80 rounded-lg">
               <ul className="list-disc">
                 <li>Git/ Github</li>
+                <li>Docker</li>
+                <li>Jupyter Notebooks</li>
                 <li>Linux</li>
                 <li>PowerBI/ Tableau</li>
-                <li>IBM </li>
-                <li>Plotly</li>
-                <li>Sklearn</li>
-                <li>Tensorflow</li>
+                <li>IBM Cognos</li>
+                <li>Hadoop</li>
+                <li>AWS</li>
               </ul>
             </div>
           </div>
-
 
         </div>
       </div>
 
       {/* ================================================================== */}
-      <div className="px-3 py-6 sm:pl-24 sm:pr-32 sm:pt-16">
-        <p className="text-light text-2xl lg:text-3xl pt-10">Some thoughts</p>
+      <div className="py-10">
+        <p className="text-dark pt-10 ml-6 sm:ml-16 text-3xl sm:text-5xl font-abc font-bold">Some thoughts</p>
 
-        <p className="sm:text-lg py-[2rem] text-base lg:text-lg">
-          Artifical Intetlligence have always make me wonder how pieces of metal
-          thinks and is getting closer to humanity. A journey from wondering to
-          creating have been and continuously will be. Universe is filled with
-          data, data is constant, depends on the mind useful or useless
-          difficult to understand, useful for right minds, but it is universal
-          and graphs need data, so data is needed to make beautiful graphs.
-          tahta can be understandeable by anyone
-          <br />
-          <br />
-          Data is continuous univerasal right for the right mind beine taught to
-          us since we were born and will be there when we die, and data Science
-          helps us retrieve information from the data.
-        </p>
+        <div className="px-6 pt-8 sm:px-[15%]">
+          <p className="sm:text-lg text-base lg:text-lg">
+            The realm of Artificial Intelligence has always fascinated me, sparking wonder about how pieces of metal can think and evolve, edging closer to humanity with each advancement. It's been an intriguing journey from mere curiosity to active creation, and it's one that continues to unfold. Our universe is an endless wellspring of data, a constant flow that holds the key to both understanding and complexity. While deciphering its nuances may seem daunting, the right minds can extract invaluable insights. Data is universal, a fundamental element that breathes life into beautiful, comprehensible graphs—bridging the gap between complexity and clarity for all to grasp.
+            <br />
+            <br />
+            Data is the constant, universal language that surrounds us from birth until our final days. It's a concept ingrained in our understanding from the very beginning, evolving alongside us throughout our lives. With the advent of data science, we've gained the ability to unlock valuable insights hidden within this vast sea of information. Data science serves as our guide, enabling us to navigate through the complexities of data and extract meaningful knowledge to shape our world.
+          </p>
+        </div>
       </div>
     </div>
   );

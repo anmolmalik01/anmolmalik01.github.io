@@ -1,5 +1,5 @@
 import Image from "next/image";
-import portrait from "../images/portrait.png";
+import portrait from "../public/images/portrait.png";
 
 import Side from "./side";
 import MovingText from "./round";
@@ -35,11 +35,11 @@ const Main = ({ className }) => {
           <div className="flex justify-center items-center h-1/2">
             <div>
               <p className="text-2xl sm:text-5xl md:text-6xl font-bold font-abc text-light">
-                <span className="">Hi, I&apos;m</span>
+                <span className="">Hi, I'm</span>
                 <span className="text-white px-4">Anmol Malik</span>
               </p>
-              <div>
-                <span className="text-sm sm:text-base md:text-xl text-light font-arial">- Trying to shape the future with flair</span>
+              <div className="py-1 sm:py-2 leading-tight">
+                <span className="text-sm sm:text-base md:text-xl text-light font-serif">- Transforming Binary to Brilliance</span>
               </div>
             </div>
           </div>

@@ -8,7 +8,7 @@ function Projects() {
     <div className="bg-light ">
 
       {/* project heading */}
-      <div className="flex justify-center text-extra">
+      <div className="flex justify-center text-dark">
         <a href="./">
           <p className="leading-normal font-abc my-[5rem] text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-left font-bold max-w-3xl lg:max-w-4xl">
             <span className="line-before"></span> Projects <span className="line-after"></span>
@@ -18,9 +18,9 @@ function Projects() {
 
 
       {/* ==================== data science section =================== */}
-      <div className="flex flex-col bg-extra">
+      <div className="flex flex-col">
 
-        <p className="leading-normal mb-[-20px] text-light font-abc pt-20 text-2xl sm:text-3xl md:text-4xl lg:text-6xl text-left font-bold max-w-2xl lg:max-w-3xl ml-10">
+        <p className="leading-normal mb-[-20px] text-extra font-abc pt-20 text-2xl sm:text-3xl md:text-4xl lg:text-6xl text-left font-bold max-w-2xl lg:max-w-3xl ml-10">
           Data Science
         </p>
 
@@ -80,9 +80,9 @@ function Projects() {
 
 
       {/* ==================== web development =================== */}
-      <div className="flex flex-col">
+      <div className="flex flex-col bg-extra">
 
-        <p className="leading-normal font-abc pt-20 text-2xl sm:text-3xl md:text-4xl lg:text-6xl text-left font-bold max-w-2xl lg:max-w-3xl ml-10">
+        <p className="leading-normal font-abc pt-20 text-2xl sm:text-3xl md:text-4xl lg:text-6xl text-left font-bold max-w-2xl lg:max-w-3xl ml-10 text-light">
           Web development
         </p>
 
@@ -104,9 +104,9 @@ function Projects() {
 
 
       {/* ==================== Software =================== */}
-      <div className="flex flex-col bg-extra">
+      <div className="flex flex-col">
 
-        <p className="leading-normal text-white font-abc pt-20 text-2xl sm:text-3xl md:text-4xl lg:text-6xl text-left font-bold max-w-2xl lg:max-w-3xl ml-10">
+        <p className="leading-normal text-dark font-abc pt-20 text-2xl sm:text-3xl md:text-4xl lg:text-6xl text-left font-bold max-w-2xl lg:max-w-3xl ml-10">
           Software
         </p>
 
@@ -158,9 +158,9 @@ function Projects() {
 
 
       {/* ==================== Design/ Dashboard =================== */}
-      <div className="flex flex-col">
+      <div className="flex flex-col bg-extra">
 
-        <p className="leading-normal font-abc pt-20 text-2xl sm:text-3xl md:text-4xl lg:text-6xl text-left font-bold max-w-2xl lg:max-w-3xl ml-10">
+        <p className="leading-normal font-abc pt-20 text-2xl sm:text-3xl md:text-4xl lg:text-6xl text-left font-bold max-w-2xl lg:max-w-3xl ml-10 text-light">
           Design/Dashboard
         </p>
 

@@ -89,7 +89,7 @@ function Contact() {
               <div className="flex justify-center p-3 sm:p-5">
                 <button
                   type="submit"
-                  className="bg-gray-200 border border-light text-extra hover:bg-light hover:text-black text-white font-semibold py-2 px-4 rounded"
+                  className="bg-white border border-dark text-extra hover:bg-extra hover:text-white font-semibold py-2 px-4 rounded"
                 >
                   Submit
                 </button>

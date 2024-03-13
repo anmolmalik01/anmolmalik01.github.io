@@ -14,16 +14,16 @@ function About() {
 
       <div className="px-6 pt-8 sm:px-[15%] sm:pt-16">
         <p className="sm:text-lg py-8 mb-10 text-base lg:text-lg">
-          Hey there! I'm a budding software developer currently rocking my bachelor's degree. My passion? It's all about diving deep into the worlds of data science, machine learning, and web development.
+          Hey there! I&apos;m a budding software developer currently rocking my bachelor&apos;s degree. My passion? It&apos;s all about diving deep into the worlds of data science, machine learning, and web development.
           <br />
           <br />
           My coding adventure started back in 2019, thanks to a tempting ad on social media offering free coding certificates for web development. Little did I know, this was just the beginning of an exhilarating journey! As I delved into the realm of design, I discovered that while it may seem more complex than coding at first glance, the real magic lies in constant tinkering and refining.
           <br />
           <br />
-          What gets me pumped about development is the thrill of crafting solutions that tackle real-world challenges head-on. Through coding, I've not only sharpened my problem-solving skills on-screen but also found myself applying them to all sorts of other areas.
+          What gets me pumped about development is the thrill of crafting solutions that tackle real-world challenges head-on. Through coding, I&apos;ve not only sharpened my problem-solving skills on-screen but also found myself applying them to all sorts of other areas.
           <br />
           <br />
-          I love making websites that are clean, user-friendly vibe that looks awesome on any device. And when it comes to side projects, count me in! They're like mini revolutions—constantly surprising, endlessly fascinating, and always teaching me more than I ever expected.
+          I love making websites that are clean, user-friendly vibe that looks awesome on any device. And when it comes to side projects, count me in! They&apos;re like mini revolutions—constantly surprising, endlessly fascinating, and always teaching me more than I ever expected.
         </p>
       </div>
 
@@ -95,10 +95,10 @@ function About() {
 
         <div className="px-6 pt-8 sm:px-[15%]">
           <p className="sm:text-lg text-base lg:text-lg">
-            The realm of Artificial Intelligence has always fascinated me, sparking wonder about how pieces of metal can think and evolve, edging closer to humanity with each advancement. It's been an intriguing journey from mere curiosity to active creation, and it's one that continues to unfold. Our universe is an endless wellspring of data, a constant flow that holds the key to both understanding and complexity. While deciphering its nuances may seem daunting, the right minds can extract invaluable insights. Data is universal, a fundamental element that breathes life into beautiful, comprehensible graphs—bridging the gap between complexity and clarity for all to grasp.
+            The realm of Artificial Intelligence has always fascinated me, sparking wonder about how pieces of metal can think and evolve, edging closer to humanity with each advancement. It&apos;s been an intriguing journey from mere curiosity to active creation, and it&apos;s one that continues to unfold. Our universe is an endless wellspring of data, a constant flow that holds the key to both understanding and complexity. While deciphering its nuances may seem daunting, the right minds can extract invaluable insights. Data is universal, a fundamental element that breathes life into beautiful, comprehensible graphs—bridging the gap between complexity and clarity for all to grasp.
             <br />
             <br />
-            Data is the constant, universal language that surrounds us from birth until our final days. It's a concept ingrained in our understanding from the very beginning, evolving alongside us throughout our lives. With the advent of data science, we've gained the ability to unlock valuable insights hidden within this vast sea of information. Data science serves as our guide, enabling us to navigate through the complexities of data and extract meaningful knowledge to shape our world.
+            Data is the constant, universal language that surrounds us from birth until our final days. It&apos;s a concept ingrained in our understanding from the very beginning, evolving alongside us throughout our lives. With the advent of data science, we&apos;ve gained the ability to unlock valuable insights hidden within this vast sea of information. Data science serves as our guide, enabling us to navigate through the complexities of data and extract meaningful knowledge to shape our world.
           </p>
         </div>
       </div>

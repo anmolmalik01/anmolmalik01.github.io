@@ -35,7 +35,7 @@ const Main = ({ className }) => {
           <div className="flex justify-center items-center h-1/2">
             <div>
               <p className="text-2xl sm:text-5xl md:text-6xl font-bold font-abc text-light">
-                <span className="">Hi, I'm</span>
+                <span className="">Hi, I&apos;m</span>
                 <span className="text-white px-4">Anmol Malik</span>
               </p>
               <div className="py-1 sm:py-2 leading-tight">

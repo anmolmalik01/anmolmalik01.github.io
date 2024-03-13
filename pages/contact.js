@@ -17,17 +17,17 @@ function Contact() {
 
           <p className=" text-extra text-base lg:text-lg">
             <span>
-              Get ready to bring your ideas to life like never before! I'm here to help turn your dreams into reality. Whether you're a big company, a startup, or just someone with a cool idea, let's work together to make amazing things happen.
+              Get ready to bring your ideas to life like never before! I&apos;m here to help turn your dreams into reality. Whether you&apos;re a big company, a startup, or just someone with a cool idea, let&apos;s work together to make amazing things happen.
             </span>
             <br/>
             <br/>
             <span>
-              We can take your existing projects and make them even better, or we can start something brand new that could change the game. Whatever you've got in mind, I'm excited to dive in and make it happen.
+              We can take your existing projects and make them even better, or we can start something brand new that could change the game. Whatever you&apos;ve got in mind, I&apos;m excited to dive in and make it happen.
             </span>
             <br/>
             <br/>
             <span>
-              If you're ready to see your vision come to life, let's chat! Reach out using the contact info below, and let's start making magic together. I can't wait to hear about your projects and see how we can work together to make them a reality!
+              If you&apos;re ready to see your vision come to life, let&apos;s chat! Reach out using the contact info below, and let&apos;s start making magic together. I can&apos;t wait to hear about your projects and see how we can work together to make them a reality!
             </span>
           </p>
         </div>
